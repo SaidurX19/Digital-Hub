@@ -14,7 +14,7 @@
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://saidurx19.netlify.app/">
+    <meta property="og:url" content="https://saidurx19.github.io/Digital-Hub/">
     <meta property="og:title" content="SaidurX19 - Md Saidur Rahman | Official Digital Hub">
     <meta property="og:description" content="Official digital hub and biography of SaidurX19 (Md Saidur Rahman). Web Design, Branding, AI Tools, Literature, and Bornobilas Organization.">
     <meta property="og:site_name" content="SaidurX19">
@@ -25,48 +25,102 @@
     <meta name="twitter:title" content="SaidurX19 - Md Saidur Rahman | Official Digital Hub">
     <meta name="twitter:description" content="Official portfolio and biography of SaidurX19 (Md Saidur Rahman).">
 
-    <!-- JSON-LD Structured Data for Google SEO / Knowledge Graph -->
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "Person",
-      "name": "Md Saidur Rahman",
-      "alternateName": ["SaidurX19"],
-      "url": "https://saidurx19.netlify.app/",
-      "email": "mailto:saidurx19@gmail.com",
-      "telephone": "+8801940755125",
-      "birthDate": "2005-02-21",
-      "birthPlace": {
-        "@type": "Place",
-        "name": "Assasuni, Satkhira, Khulna, Bangladesh"
+  <!-- JSON-LD Structured Data for Google SEO / Knowledge Graph -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "@id": "https://saidurx19.github.io/Digital-Hub/#website",
+        "url": "https://saidurx19.github.io/Digital-Hub/",
+        "name": "Md Saidur Rahman - Digital Hub",
+        "alternateName": "SaidurX19 Digital Hub",
+        "description": "Official portfolio and digital hub of Md Saidur Rahman (SaidurX19) — poet of Bhornobilaash (বর্ণবিলাস), former Graphic Design trainer at E-learning and Earning Limited, and Degree student.",
+        "inLanguage": ["bn", "en"],
+        "publisher": {
+          "@id": "https://saidurx19.github.io/Digital-Hub/#person"
+        }
       },
-      "alumniOf": [
-        "Ashashuni Government Primary School",
-        "Ashashuni Alia Madrasa"
-      ],
-      "jobTitle": "Web Designer, Visual Designer & Content Writer",
-      "worksFor": {
-        "@type": "Organization",
-        "name": "Bornobilas"
+      {
+        "@type": "ProfilePage",
+        "@id": "https://saidurx19.github.io/Digital-Hub/#profilepage",
+        "url": "https://saidurx19.github.io/Digital-Hub/",
+        "name": "Md Saidur Rahman - Profile & Digital Hub",
+        "isPartOf": {
+          "@id": "https://saidurx19.github.io/Digital-Hub/#website"
+        },
+        "about": {
+          "@id": "https://saidurx19.github.io/Digital-Hub/#person"
+        },
+        "mainEntity": {
+          "@id": "https://saidurx19.github.io/Digital-Hub/#person"
+        },
+        "inLanguage": ["bn", "en"]
       },
-      "sameAs": [
-        "https://www.facebook.com/SaidurX19",
-        "https://www.instagram.com/SaidurX19",
-        "https://www.threads.com/@SaidurX19",
-        "https://x.com/SaidurX19",
-        "https://www.tiktok.com/@SaidurX19",
-        "https://www.youtube.com/@SaidurX19",
-        "https://github.com/SaidurX19",
-        "https://medium.com/@SaidurX19",
-        "https://SaidurX19.blogspot.com",
-        "https://www.linkedin.com/in/saidurx19/",
-        "https://dribbble.com/saidurx19",
-        "https://www.pinterest.com/SaidurX19",
-        "https://soundcloud.com/saidurx19",
-        "https://t.me/SaidurX19"
-      ]
-    }
-    </script>
+      {
+        "@type": "Person",
+        "@id": "https://saidurx19.github.io/Digital-Hub/#person",
+        "name": "Md Saidur Rahman",
+        "alternateName": "SaidurX19",
+        "url": "https://saidurx19.github.io/Digital-Hub/",
+        "email": "mailto:saidurx19@gmail.com",
+        "telephone": "+8801940755125",
+        "jobTitle": "Poet & Former Graphic Design Trainer",
+        "description": "Poet whose poems are published in the poetry collection Bhornobilaash (বর্ণবিলাস) and former Graphic Design trainer at E-learning and Earning Limited.",
+        "alumniOf": {
+          "@type": "EducationalOrganization",
+          "name": "Ashashuni Government College"
+        },
+        "knowsAbout": [
+          "Poetry",
+          "Bhornobilaash (বর্ণবিলাস)",
+          "Graphic Design",
+          "Web Development",
+          "Digital Content Creation"
+        ],
+        "subjectOf": {
+          "@id": "https://saidurx19.github.io/Digital-Hub/#book-bornobilash"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+8801940755125",
+          "email": "saidurx19@gmail.com",
+          "contactType": "customer support",
+          "availableLanguage": ["bn", "en"]
+        },
+        "sameAs": [
+          "https://saidurx19.github.io/Digital-Hub/",
+          "https://www.facebook.com/SaidurX19",
+          "https://www.instagram.com/SaidurX19",
+          "https://www.threads.com/@SaidurX19",
+          "https://x.com/SaidurX19",
+          "https://www.linkedin.com/in/saidurx19/",
+          "https://github.com/SaidurX19",
+          "https://dribbble.com/saidurx19",
+          "https://saidurx19.blogspot.com/",
+          "https://medium.com/@SaidurX19",
+          "https://www.youtube.com/@SaidurX19",
+          "https://www.tiktok.com/@SaidurX19",
+          "https://www.pinterest.com/SaidurX19",
+          "https://soundcloud.com/saidurx19",
+          "https://t.me/SaidurX19"
+        ]
+      },
+      {
+        "@type": "Book",
+        "@id": "https://saidurx19.github.io/Digital-Hub/#book-bornobilash",
+        "name": "বর্ণবিলাস",
+        "alternateName": "Bhornobilaash",
+        "author": {
+          "@id": "https://saidurx19.github.io/Digital-Hub/#person"
+        },
+        "inLanguage": "bn",
+        "genre": "Poetry"
+      }
+    ]
+  }
+  </script>
 
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
